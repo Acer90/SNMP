@@ -1,0 +1,14 @@
+{
+    "id": "{2F4FB7B0-AF13-46F1-9DEA-1DEBE0C3E324}",
+    "name": "IPSSNMP",
+    "type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"IPS SNMP Client"
+	],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "IPSSNMP"
+}
