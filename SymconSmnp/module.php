@@ -129,7 +129,7 @@ class IPSSNMP extends IPSModule {
                 $oids = @call_user_func_array (array($snmp, "get"), $oid_array);
 
                 foreach($oids as $oid) {
-                    $this->SendDebug("ReadSNMP", "READ OID => " . $oid->getOid(), 0);
+                    //$this->SendDebug("ReadSNMP", "READ OID => " . $oid->getOid(), 0);
                     $out[$oid->getOid()] = (string)$oid->getValue();
                 }
 
