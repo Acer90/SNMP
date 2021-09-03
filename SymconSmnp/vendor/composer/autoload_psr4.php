@@ -7,6 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'FreeDSx\\Socket\\' => array($vendorDir . '/freedsx/socket/src/FreeDSx/Socket'),
-    'FreeDSx\\Snmp\\' => array($vendorDir . '/freedsx/snmp/src/FreeDSx/Snmp'),
+    'FreeDSx\\Snmp\\' => array($baseDir . '/src/FreeDSx/Snmp', $vendorDir . '/freedsx/snmp/src/FreeDSx/Snmp'),
     'FreeDSx\\Asn1\\' => array($vendorDir . '/freedsx/asn1/src/FreeDSx/Asn1'),
 );
