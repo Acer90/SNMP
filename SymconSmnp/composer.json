@@ -1,8 +1,5 @@
 {
     "require": {
         "freedsx/snmp": "^0.4.0"
-    },
-	"autoload": {
-        "psr-4": {"FreeDSx\\Snmp\\": "src/FreeDSx/Snmp"}
     }
 }

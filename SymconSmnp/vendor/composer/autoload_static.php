@@ -22,8 +22,7 @@ class ComposerStaticInitf05cfa02d76c20d6a6b13424c8731ba9
         ),
         'FreeDSx\\Snmp\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/FreeDSx/Snmp',
-            1 => __DIR__ . '/..' . '/freedsx/snmp/src/FreeDSx/Snmp',
+            0 => __DIR__ . '/..' . '/freedsx/snmp/src/FreeDSx/Snmp',
         ),
         'FreeDSx\\Asn1\\' => 
         array (
