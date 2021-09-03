@@ -282,14 +282,14 @@ class IPSSNMP extends IPSModule {
                         $port_id = intval($strarr[1]);
                         if (!is_numeric($port_id)) return false;
                         $value = 2;
-                        $oid = "1.3.6.1.2.1.2.2.1.7.$port_id";
+                        $oid = "1.3.6.1.2.1.2.2.1.7.".$port_id;
                     }else{
                         $strarr = explode("|", $oid);
                         if (count($strarr) < 2) return false;
                         $port_id = intval($strarr[1]);
                         if (!is_numeric($port_id)) return false;
                         $value = 1;
-                        $oid = "1.3.6.1.2.1.2.2.1.7.$port_id";
+                        $oid = "1.3.6.1.2.1.2.2.1.7.".$port_id;
                     }
                     break;
             }
@@ -342,7 +342,7 @@ class IPSSNMP extends IPSModule {
 
                     $strarr = explode("|", $oid);
                     if (count($strarr) < 2) continue;
-                    $port_id = $strarr[1];
+                    $port_id = intval($strarr[1]);
                     if (!is_numeric($port_id)) continue;
 
                     switch ($oid) {
